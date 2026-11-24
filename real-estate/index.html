@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resort Real Estate in Bali & Phuket | Isla Estates</title>
+<meta name="description" content="Villas, apartments and hotel units in Bali and Phuket with professional rental management. Free personal selection.">
+<meta property="og:title" content="Resort Real Estate in Bali & Phuket | Isla Estates">
+<meta property="og:description" content="Villas, apartments and hotel units in Bali and Phuket with professional rental management. Free personal selection.">
+<meta name="theme-color" content="#0C3A3A">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%230C3A3A%22/%3E%3Ctext%20x%3D%2232%22%20y%3D%2244%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2236%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23F2A65A%22%3EI%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Shared layout. Colours and fonts come from the theme block of each page. */
+:root{
+  --navy:#202B52;--navy-2:#1A2346;--blue:#385F9E;--sand:#EFDBB2;--graphite:#3C4156;--ivory:#F5F1EB;--sky:#85A9C1;
+  --bronze:linear-gradient(100deg,#B97A55 0%,#E9C3A0 45%,#C88A63 100%);
+  --bg:var(--navy);--card:#26315C;--line:rgba(133,169,193,.22);
+  --text:var(--ivory);--muted:#AFC0D0;
+  --radius:14px;--max:1180px;
+}
+*{box-sizing:border-box;margin:0;padding:0;min-width:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:var(--font),system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:clip}
+h1,h2{font-family:var(--head),system-ui,sans-serif;font-weight:var(--hw);line-height:1.1;letter-spacing:-.01em;text-wrap:balance}
+h3{font-family:var(--head),system-ui,sans-serif;font-weight:700;line-height:1.2}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px;position:relative;z-index:1}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 28px;border-radius:999px;font:700 15px var(--font),sans-serif;cursor:pointer;border:1px solid transparent;transition:.25s;min-height:48px}
+.btn-gold{background:var(--sand);color:var(--on-accent)}.btn-gold:hover{background:var(--bronze);color:#1a1a1a}
+.btn-ghost{border-color:rgba(245,241,235,.4);color:var(--ivory)}.btn-ghost:hover{border-color:var(--sand);color:var(--sand)}
+.btn-line{border-color:var(--line);color:var(--ivory);background:none}.btn-line:hover{border-color:var(--sand);color:var(--sand)}
+.eyebrow{color:var(--sky);font-size:13px;letter-spacing:.06em;text-transform:uppercase;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.eyebrow:before{content:"";width:22px;height:2px;background:currentColor;border-radius:2px}
+.bronze-text{background:var(--bronze);-webkit-background-clip:text;background-clip:text;color:transparent}
+section{padding:100px 0;position:relative;overflow:hidden}
+.sec-head{max-width:740px;margin-bottom:46px}
+.sec-head h2{font-size:clamp(32px,4vw,50px);margin-bottom:14px}
+.sec-head p{color:var(--muted);font-size:17px}
+
+/* light sections (ivory, like the brand stationery) */
+.light{background:var(--ivory);color:var(--navy)}
+.light .eyebrow{color:var(--blue)}
+.light .sec-head p{color:var(--graphite)}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--navy) 94%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:76px;gap:16px}
+.logo{display:flex;flex-direction:column;line-height:1.05}
+.logo b{font-family:var(--head),sans-serif;font-size:21px;font-weight:700;letter-spacing:.02em}
+.logo small{font-size:11px;color:var(--sky);letter-spacing:.12em;text-transform:uppercase;font-weight:600}
+.nav-links{display:flex;gap:28px;font-size:15px;color:var(--muted)}
+.nav-links a:hover{color:var(--sand)}
+.nav-right{display:flex;align-items:center;gap:12px}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.lang button{background:none;border:0;color:var(--muted);padding:8px 13px;font:700 13px var(--font),sans-serif;cursor:pointer}
+.lang button.on{background:var(--sand);color:var(--on-accent)}
+.nav .btn{padding:10px 20px;font-size:14px;min-height:42px}
+
+/* hero */
+.hero{position:relative;padding:150px 0 120px;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background-size:cover;background-position:center}
+.hero-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,color-mix(in srgb,var(--navy) 95%,transparent) 0%,color-mix(in srgb,var(--navy) 72%,transparent) 48%,color-mix(in srgb,var(--navy) 10%,transparent) 100%)}
+.hero-plain{background:var(--navy)}
+.pass{position:absolute;right:8%;top:50%;transform:translateY(-50%) rotate(-6deg);width:clamp(200px,22vw,300px);aspect-ratio:5/7;border-radius:14px 22px 22px 14px;background:linear-gradient(160deg,color-mix(in srgb,var(--blue) 80%,#000) 0%,var(--navy-2) 100%);box-shadow:0 30px 60px rgba(0,0,0,.4),inset 6px 0 0 rgba(0,0,0,.25);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;color:var(--sand);z-index:1}
+.pass i{width:42%;aspect-ratio:1;border-radius:50%;border:2px solid currentColor;display:grid;place-items:center;position:relative}
+.pass i:before{content:"";width:62%;aspect-ratio:1;border-radius:50%;border:1.5px solid currentColor;background:repeating-linear-gradient(0deg,transparent 0 8px,currentColor 8px 9.5px)}
+.pass span{font-weight:700;letter-spacing:.35em;font-size:13px}
+.pass .pass2{position:absolute;inset:auto auto -8% -22%;width:70%;aspect-ratio:5/7;border-radius:12px;background:var(--sand);opacity:.16;transform:rotate(14deg);z-index:-1}
+.hero h1{font-size:clamp(40px,5.8vw,72px);margin-bottom:22px;max-width:760px}
+.hero h1 em{font-style:normal;font-weight:400;background:var(--bronze);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .lead{font-size:19px;color:#D3DCE6;max-width:600px;margin-bottom:34px}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+.hero-facts{display:flex;gap:44px;flex-wrap:wrap;margin-top:58px;padding-top:28px;border-top:1px solid rgba(245,241,235,.18);max-width:760px}
+.hero-facts b{display:block;font-size:36px;font-weight:300;line-height:1;margin-bottom:6px;background:var(--bronze);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-facts span{color:#C9D3DE;font-size:14px}
+
+/* filters + cards */
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:30px}
+.filters button{background:none;border:1px solid var(--line);color:var(--muted);padding:9px 19px;border-radius:999px;font:600 14px var(--font),sans-serif;cursor:pointer;transition:.2s;min-height:42px}
+.filters button:hover{color:var(--ivory);border-color:var(--sky)}
+.filters button.on{background:var(--sand);border-color:var(--sand);color:var(--on-accent)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;transition:.25s}
+.card:hover{border-color:rgba(239,219,178,.6);transform:translateY(-4px)}
+.card-img{position:relative;aspect-ratio:16/10;background:#1a2346 center/cover}
+.tag{position:absolute;top:14px;left:14px;background:color-mix(in srgb,var(--navy) 85%,transparent);backdrop-filter:blur(6px);color:var(--ivory);font-size:12px;font-weight:700;padding:6px 12px;border-radius:999px}
+.card-body{padding:24px;display:flex;flex-direction:column;flex:1}
+.card-loc{color:var(--sky);font-size:13px;font-weight:600;margin-bottom:6px}
+.card h3{font-size:22px;margin-bottom:8px}
+.card .desc{color:var(--muted);font-size:14.5px;margin-bottom:16px}
+.specs{display:grid;grid-template-columns:1fr 1fr;gap:9px 14px;font-size:14px;margin-bottom:18px}
+.specs div{display:flex;flex-direction:column}
+.specs small{color:var(--sky);font-size:11.5px;text-transform:lowercase;letter-spacing:.08em}
+.card-foot{margin-top:auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding-top:16px;border-top:1px solid var(--line)}
+.price small{display:block;color:var(--muted);font-size:12px}
+.price b{font-size:21px;font-weight:700;color:var(--sand);white-space:nowrap}
+.card-foot .btn{padding:9px 16px;font-size:13px;min-height:40px}
+
+/* split feature */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.split-img{border-radius:var(--radius);overflow:hidden;aspect-ratio:4/3;background:center/cover}
+.points{display:grid;gap:18px;margin-top:24px}
+.point{display:flex;gap:14px}
+.point i{flex:0 0 36px;height:36px;border-radius:50%;border:1px solid var(--sand);color:var(--sand);display:grid;place-items:center;font-style:normal;font-weight:700;font-size:14px}
+.point h4{font-size:16px;font-weight:700;margin-bottom:2px}
+.point p{color:var(--muted);font-size:14.5px}
+
+/* destinations */
+.dest{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.dest-card{position:relative;border-radius:var(--radius);overflow:hidden;min-height:410px;display:flex;align-items:flex-end;background:center/cover;color:var(--ivory)}
+.dest-card:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,color-mix(in srgb,var(--navy) 95%,transparent) 12%,transparent 72%)}
+.dest-in{position:relative;z-index:1;padding:32px}
+.dest-in h3{font-size:36px;font-weight:300;margin-bottom:8px}
+.dest-in p{color:#D3DCE6;font-size:15px;margin-bottom:14px;max-width:460px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{font-size:12.5px;border:1px solid rgba(239,219,178,.45);padding:5px 11px;border-radius:999px}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;counter-reset:s}
+.step{border-top:1px solid var(--blue);padding-top:22px}
+.step:before{counter-increment:s;content:counter(s);font-size:40px;font-weight:300;color:var(--blue);display:block;margin-bottom:6px;line-height:1}
+.step h3{font-size:19px;margin-bottom:8px}
+.step p{color:var(--graphite);font-size:15px}
+
+/* light-section cards (residency "goal" cards live on navy, compare table on ivory) */
+.table-wrap{overflow-x:auto;border:1px solid #E2DACB;border-radius:var(--radius);background:#fff}
+table{width:100%;border-collapse:collapse;font-size:14.5px;min-width:840px}
+th,td{padding:15px 18px;text-align:left;border-bottom:1px solid #EEE7DA;white-space:nowrap}
+th{font-size:12px;text-transform:lowercase;letter-spacing:.12em;color:var(--blue);background:#FBF8F2;font-weight:700}
+tbody tr:hover{background:#FBF8F2}
+tr.grp td{background:var(--navy);color:var(--sand);font-weight:700;font-size:12.5px;letter-spacing:.08em;text-transform:lowercase}
+.offer{display:inline-block;margin-left:6px;background:var(--sand);color:var(--on-accent);font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px}
+tr:last-child td{border-bottom:0}
+td b{font-weight:700}
+.note{font-size:13px;color:var(--graphite);margin-top:14px}
+
+/* form */
+.form-wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}
+.form-side p{color:var(--muted);margin-bottom:26px;font-size:17px}
+.contact-line{display:flex;flex-direction:column;gap:10px;color:var(--muted)}
+.contact-line a{color:var(--ivory)}.contact-line a:hover{color:var(--sand)}
+form{background:var(--navy-2);backdrop-filter:blur(4px);border:1px solid var(--line);border-radius:var(--radius);padding:34px;display:grid;gap:16px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+label{font-size:13px;color:var(--muted);display:block;margin-bottom:6px}
+input,select,textarea{width:100%;background:var(--navy);border:1px solid var(--line);border-radius:10px;padding:13px 14px;color:var(--ivory);font:16px var(--font),sans-serif;min-height:48px}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--sand)}
+textarea{resize:vertical;min-height:90px}
+label.consent{display:flex;gap:10px;align-items:flex-start;font-size:13px;margin:0}
+.consent input{width:auto;min-height:0;margin-top:3px;accent-color:var(--sand)}
+.form-msg{display:none;padding:14px;border-radius:10px;font-size:15px}
+.form-msg.ok{display:block;background:rgba(239,219,178,.12);border:1px solid var(--sand)}
+.form-msg.err{display:block;background:rgba(220,80,80,.12);border:1px solid #d77}
+
+/* faq */
+.faq{max-width:860px}
+details{border-bottom:1px solid #E2DACB;padding:22px 0}
+summary{cursor:pointer;font-weight:700;font-size:17px;list-style:none;display:flex;justify-content:space-between;gap:20px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";color:var(--blue);font-size:24px;line-height:1;font-weight:300}
+details[open] summary:after{content:"–"}
+details p{color:var(--graphite);margin-top:12px}
+
+footer{padding:44px 0;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.foot .logo b{font-size:18px}
+#privacy{margin-top:18px;border:0;padding:0;color:var(--muted)}
+#privacy summary{font-weight:600;font-size:13px}
+#privacy summary:after{color:var(--sand)}
+#privacy p{color:var(--muted);font-size:13px;max-width:820px}
+.foot-links{display:flex;gap:18px;flex-wrap:wrap}
+.foot-links a:hover{color:var(--sand)}
+.disclaimer{margin-top:20px;font-size:12px;opacity:.8;max-width:900px}
+.wa-float{position:fixed;right:22px;bottom:22px;width:58px;height:58px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.35);z-index:60}
+.wa-float svg{width:30px;height:30px;fill:#fff}
+
+@media(max-width:980px){
+  .nav-links{display:none}
+  .grid{grid-template-columns:1fr 1fr}
+  .split,.form-wrap,.dest{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .pass{position:absolute;right:8%;top:50%;transform:translateY(-50%) rotate(-6deg);width:clamp(200px,22vw,300px);aspect-ratio:5/7;border-radius:14px 22px 22px 14px;background:linear-gradient(160deg,color-mix(in srgb,var(--blue) 80%,#000) 0%,var(--navy-2) 100%);box-shadow:0 30px 60px rgba(0,0,0,.4),inset 6px 0 0 rgba(0,0,0,.25);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;color:var(--sand);z-index:1}
+.pass i{width:42%;aspect-ratio:1;border-radius:50%;border:2px solid currentColor;display:grid;place-items:center;position:relative}
+.pass i:before{content:"";width:62%;aspect-ratio:1;border-radius:50%;border:1.5px solid currentColor;background:repeating-linear-gradient(0deg,transparent 0 8px,currentColor 8px 9.5px)}
+.pass span{font-weight:700;letter-spacing:.35em;font-size:13px}
+.pass .pass2{position:absolute;inset:auto auto -8% -22%;width:70%;aspect-ratio:5/7;border-radius:12px;background:var(--sand);opacity:.16;transform:rotate(14deg);z-index:-1}
+}
+@media(max-width:620px){
+  section{padding:70px 0}
+  .hero{padding:96px 0 76px}
+  .grid,.steps,.row{grid-template-columns:1fr}
+  .nav .btn{display:none}
+  .logo b{font-size:18px}
+  .hero-facts{gap:26px}
+  .dest-card{min-height:340px}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+/* ===== THEME — change colours and fonts here ===== */
+:root{
+  --font:Outfit;--head:Outfit;--hw:400;
+  --navy:#0C3A3A;--navy-2:#082B2B;--card:#114646;--line:rgba(255,255,255,.14);
+  --ivory:#FBF7F0;--text:#FBF7F0;--muted:#B5D0CB;--sky:#7FD1C4;
+  --sand:#F2A65A;--on-accent:#2A1607;--blue:#0E7C74;--graphite:#43544F;
+  --bronze:linear-gradient(100deg,#FFD08A 0%,#F2A65A 55%,#EE7F5C 100%);--radius:18px;
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a href="#" class="logo"><b>Isla Estates</b><small>Bali · Phuket</small></a>
+    <nav class="nav-links">
+      <a href="#projects" data-i18n="n_projects">Projects</a>
+      <a href="#destinations" data-i18n="n_dest">Destinations</a>
+      <a href="#income" data-i18n="n_income">Rental income</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang"><button data-lang="en">EN</button><button data-lang="ru">RU</button></div>
+      <a href="#contact" class="btn btn-gold" data-i18n="nav_cta">Get a selection</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg" style="background-image:url(img/hero.webp)"></div>
+  <div class="wrap">
+    <div class="eyebrow" data-i18n="hero_eyebrow">Resort real estate · Bali & Phuket</div>
+    <h1 data-i18n-html="hero_title">Own a home where others <em>go on holiday</em></h1>
+    <p class="lead" data-i18n="hero_lead">Villas, apartments and hotel units in Bali and Phuket, managed for you and rented out while you're away. We select the project, check the paperwork and stay with you after the keys.</p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-gold" data-i18n="hero_cta1">See projects</a>
+      <a href="#" class="btn btn-ghost js-wa" data-i18n="hero_cta2">Ask on WhatsApp</a>
+    </div>
+    <div class="hero-facts">
+      <div><b>$97K</b><span data-i18n="hf_1">entry price, Bali studios</span></div>
+      <div><b>11</b><span data-i18n="hf_2">projects from vetted developers</span></div>
+      <div><b>8–17%</b><span data-i18n="hf_3">developer-projected yield</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow" data-i18n="pr_eyebrow">Current projects</div>
+      <h2 data-i18n="pr_title">Selected projects in Bali and Phuket</h2>
+      <p data-i18n="pr_lead">From compact studios to beachfront penthouses. Prices are starting prices from the developers and may change as units sell.</p>
+    </div>
+    <div class="filters">
+      <button data-f="all" class="on" data-i18n="f_all">All</button>
+      <button data-f="bali" data-i18n="f_bali">Bali</button>
+      <button data-f="phuket" data-i18n="f_phuket">Phuket</button>
+      <button data-f="u300" data-i18n="f_u300">Under $300K</button>
+      <button data-f="ready" data-i18n="f_ready">Ready now</button>
+    </div>
+    <div class="grid" id="cards"></div>
+  </div>
+</section>
+
+<section id="destinations" class="light">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow" data-i18n="d_eyebrow">Destinations</div>
+      <h2 data-i18n="d_title">Two islands, two strategies</h2>
+      <p data-i18n="d_lead">Bali gives higher projected yields and lower entry prices. Phuket gives large branded resorts, beachfront locations and hotel-style management.</p>
+    </div>
+    <div class="dest">
+      <div class="dest-card" style="background-image:url(img/bali.webp)">
+        <div class="dest-in">
+          <h3>Bali</h3>
+          <p data-i18n="d_bali">Villas and apartments near the surf beaches of Canggu and Pererenan, the jungle around Ubud and the cliffs of Uluwatu. Year-round tourist demand and short-term rentals.</p>
+          <div class="chips"><span>Pererenan</span><span>Canggu</span><span>Berawa</span><span>Ubud</span><span>Uluwatu</span><span>Nusa Dua</span></div>
+        </div>
+      </div>
+      <div class="dest-card" style="background-image:url(img/phuket.webp)">
+        <div class="dest-in">
+          <h3>Phuket</h3>
+          <p data-i18n="d_phuket">Resort communities around Bang Tao beach and the Laguna area: residences with pools, golf, wellness centers and professional rental pools.</p>
+          <div class="chips"><span>Bang Tao</span><span>Laguna</span><span data-i18n="d_chip_beach">50 m to the beach</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="income">
+  <div class="wrap split">
+    <div class="split-img" style="background-image:url(img/eden.webp)"></div>
+    <div>
+      <div class="eyebrow" data-i18n="i_eyebrow">Rental income</div>
+      <h2 style="font-size:clamp(32px,4vw,46px);margin-bottom:14px" data-i18n="i_title">Your property works while you don't</h2>
+      <p style="color:var(--muted);font-size:17px" data-i18n="i_lead">Every project we offer has a professional management company. They find guests, clean, maintain and pay you your share.</p>
+      <div class="points">
+        <div class="point"><i>1</i><div><h4 data-i18n="i1_t">Rental pool or individual rental</h4><p data-i18n="i1_d">In Phuket, choose a shared rental pool for stable income or individual rental for more flexibility. The owner gets 70% of revenue.</p></div></div>
+        <div class="point"><i>2</i><div><h4 data-i18n="i2_t">Hotel-standard management in Bali</h4><p data-i18n="i2_d">Listing, check-in, daily cleaning, pool and garden care, 24/7 security. Typical fee: 20% of revenue.</p></div></div>
+        <div class="point"><i>3</i><div><h4 data-i18n="i3_t">Owner dashboard</h4><p data-i18n="i3_d">See bookings, calendar, blocked dates and income online, and use the property yourself on your dates.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="light">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow" data-i18n="hw_eyebrow">How to buy</div>
+      <h2 data-i18n="hw_title">Remote purchase in four steps</h2>
+      <p data-i18n="hw_lead">You don't need to fly in. Everything can be done online with a notary and a power of attorney if needed.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><h3 data-i18n="p1_t">Consultation</h3><p data-i18n="p1_d">We learn your budget and goals and send a shortlist with photos, layouts and income forecasts.</p></div>
+      <div class="step"><h3 data-i18n="p2_t">Booking</h3><p data-i18n="p2_d">A small booking fee (often 1%) takes the unit off the market while documents are checked.</p></div>
+      <div class="step"><h3 data-i18n="p3_t">Due diligence & contract</h3><p data-i18n="p3_d">A notary checks the land and permits. Then you sign and pay in full or by installments.</p></div>
+      <div class="step"><h3 data-i18n="p4_t">Handover & rental</h3><p data-i18n="p4_d">You receive the keys and the management company starts renting. We stay in touch for anything you need.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap form-wrap">
+    <div class="form-side">
+      <div class="eyebrow" data-i18n="f_eyebrow">Free selection</div>
+      <h2 style="font-size:clamp(32px,4vw,46px);margin-bottom:14px" data-i18n="f_title">Get a personal shortlist</h2>
+      <p data-i18n="f_lead">Tell us your budget and goal. An advisor will send you the best matching units with prices and income forecasts, usually within one business day.</p>
+      <div class="contact-line">
+        <a href="tel:+971565398800">+971 56 539 8800</a>
+        <a href="#" class="js-wa" data-i18n="c_wa">WhatsApp chat</a>
+      </div>
+    </div>
+    <form id="leadForm" novalidate>
+      <div class="row">
+        <div><label data-i18n="l_name">Full name *</label><input name="name" autocomplete="name"></div>
+        <div><label data-i18n="l_phone">Phone / WhatsApp *</label><input name="phone" type="tel" autocomplete="tel" placeholder="+"></div>
+      </div>
+      <div><label data-i18n="l_email">Email</label><input name="email" type="email" autocomplete="email"></div>
+      <div class="row">
+        <div><label data-i18n="l_interest">Interested in</label>
+          <select name="interest">
+            <option value="any" data-i18n="o_any">Any, advise me</option>
+            <option value="bali" data-i18n="o_bali">Bali</option>
+            <option value="phuket" data-i18n="o_phuket">Phuket</option>
+          </select></div>
+        <div><label data-i18n="l_budget">Budget (USD)</label>
+          <select name="budget">
+            <option value="<150k" data-i18n="b1">Under 150K</option>
+            <option value="150-400k">150K – 400K</option>
+            <option value="400-800k">400K – 800K</option>
+            <option value="800k+">800K+</option>
+          </select></div>
+      </div>
+      <div><label data-i18n="l_goal">Goal</label>
+        <select name="goal">
+          <option value="income" data-i18n="g1">Rental income</option>
+          <option value="own_use" data-i18n="g2">For my own use</option>
+          <option value="both" data-i18n="g3">Both</option>
+        </select></div>
+      <div><label data-i18n="l_msg">Anything else?</label><textarea name="message"></textarea></div>
+      <label class="consent"><input type="checkbox" name="consent"><span data-i18n-html="consent">I agree to be contacted and to the privacy policy.</span></label>
+      <button class="btn btn-gold" type="submit" data-i18n="submit">Get my shortlist</button>
+      <div class="form-msg" id="formMsg"></div>
+    </form>
+  </div>
+</section>
+
+<section id="faq" class="light">
+  <div class="wrap">
+    <div class="sec-head"><div class="eyebrow">FAQ</div><h2 data-i18n="faq_title">Common questions</h2></div>
+    <div class="faq">
+      <details><summary data-i18n="q1">Can foreigners buy property in Bali?</summary><p data-i18n="a1">Yes, usually through a long-term leasehold. The projects we offer come with leases of about 28–35 years, many with options to extend. The notary checks the land title before you pay the main amount.</p></details>
+      <details><summary data-i18n="q2">Can foreigners buy property in Phuket?</summary><p data-i18n="a2">Yes. Foreigners can own condominium units in their own name within the building's foreign-ownership quota. Villas are usually bought through a leasehold or a company structure. We explain the right option for each project.</p></details>
+      <details><summary data-i18n="q3">Are the rental yields guaranteed?</summary><p data-i18n="a3">No. The yields shown are developer projections based on occupancy and nightly rates. Real income depends on the market and how the property is managed. We'll show you the pessimistic scenario too.</p></details>
+      <details><summary data-i18n="q4">Are there payment plans?</summary><p data-i18n="a4">Many off-plan projects allow installments during construction, for example 30% upfront and the rest over 16–24 months. Ready properties are usually paid in full after due diligence.</p></details>
+      <details><summary data-i18n="q5">Do I have to travel to buy?</summary><p data-i18n="a5">No. Viewings can be done by video and contracts signed remotely. If you want to see the property in person, we can organize the visit.</p></details>
+      <details><summary data-i18n="q6">What does your service cost?</summary><p data-i18n="a6">The consultation and selection are free for buyers. You pay the property price plus the developer's standard costs, such as notary fees and taxes where they apply.</p></details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <a href="#" class="logo"><b>Isla Estates</b><small>Bali · Phuket</small></a>
+      <div>© <span id="yr"></span> Isla Estates</div>
+      <div class="foot-links"><a href="#privacy" data-i18n="privacy">Privacy policy</a></div>
+    </div>
+    <p class="disclaimer" data-i18n="disc">Prices, availability and completion dates are provided by the developers and may change. Yields are developer projections, not guaranteed returns. USD prices for Phuket are approximate, converted at 34 THB per USD. This page is for information only and is not financial or legal advice.</p>
+  </div>
+  <div class="wrap"><details id="privacy"><summary data-i18n="privacy">Privacy policy</summary><p data-i18n="privacy_txt">We use the details you send only to contact you about your request. We do not sell or share them with third parties except the partners needed to process your application, and only with your consent. You can ask us to delete your data at any time via WhatsApp.</p></details></div>
+</footer>
+
+<a href="#" class="wa-float js-wa" aria-label="WhatsApp"><svg viewBox="0 0 32 32"><path d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.2.6 4.4 1.7 6.3L3.2 29l7.3-1.9c1.8 1 3.9 1.5 5.9 1.5h.1c7 0 12.6-5.7 12.6-12.6C29 8.6 23 3 16 3zm0 23.1c-1.9 0-3.7-.5-5.3-1.4l-.4-.2-4.3 1.1 1.2-4.2-.3-.4c-1-1.6-1.5-3.5-1.5-5.4 0-5.8 4.7-10.5 10.6-10.5 5.8 0 10.5 4.7 10.5 10.5 0 5.8-4.7 10.5-10.5 10.5zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.5.1-.2.1-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.8 5.1 2.9 1.1 3.4.9 4.1.9.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.7-.4z"/></svg></a>
+<script>
+const CONFIG = {
+  page: "real_estate",
+  whatsapp: "971565398800",
+  // Paste your Cloudflare Worker / Vercel URL here to send leads to amoCRM.
+  // Empty = the form opens WhatsApp with the lead's details instead.
+  endpoint: ""
+};
+
+/* ===== PROJECTS — edit prices/status here, the cards update automatically =====
+   region: "bali" | "phuket"   price: number in USD (for sorting/filtering)   ready: true if finished */
+const PROJECTS = [
+  {id:"breig_studios",region:"bali",img:"studios",price:97000,ready:false,tag:{en:"Sales launch",ru:"Старт продаж"},
+   name:"BREIG Studios",loc:{en:"Pererenan, Bali",ru:"Перерэнан, Бали"},
+   desc:{en:"Compact studios 3 minutes from the ocean, some with a private garden and an optional pool.",ru:"Компактные студии в 3 минутах от океана, часть с собственным садом и опцией бассейна."},
+   specs:[["size","24–27 m²"],["type",{en:"Studio",ru:"Студия"}],["ready",{en:"Q2 2028",ru:"II кв. 2028"}],["beach",{en:"3 min",ru:"3 мин"}]],
+   priceTxt:"$97,000"},
+  {id:"somos",region:"bali",img:"somos",price:139230,ready:false,tag:{en:"Hotel unit",ru:"Гостиничный номер"},
+   name:"Somos Hotels",loc:{en:"Uluwatu, Bali",ru:"Улувату, Бали"},
+   desc:{en:"Fully finished hotel rooms of an international brand, 5 minutes from Bingin beach. Managed through a rental pool.",ru:"Номера с отделкой и мебелью в отеле международного бренда, 5 минут до пляжа Бингин. Управление по системе Rental Pool."},
+   specs:[["size","34–126 m²"],["yield",{en:"10–14%*",ru:"10–14%*"}],["ready",{en:"Q4 2026",ru:"IV кв. 2026"}],["plan",{en:"30% + 24 months",ru:"30% + 24 мес."}]],
+   priceTxt:"$139,230"},
+  {id:"finns",region:"bali",img:"finns",price:166300,ready:false,tag:{en:"Hotel unit",ru:"Гостиничный номер"},
+   name:"FINNS Bali Resort",loc:{en:"Berawa, Bali",ru:"Берава, Бали"},
+   desc:{en:"A 256-room resort in Berawa with leisure, fitness and wellness areas. Yield forecast available on request.",ru:"Курорт на 256 номеров в Бераве с зонами отдыха, фитнеса и оздоровления. Прогноз доходности по запросу."},
+   specs:[["units",{en:"256 rooms",ru:"256 номеров"}],["type",{en:"Hotel unit",ru:"Номер в отеле"}],["price_idr","IDR 2.9 bn"],["yield",{en:"On request",ru:"По запросу"}]],
+   priceTxt:"≈ $166,300"},
+  {id:"kiara",region:"bali",img:"kiara",price:278700,ready:false,tag:{en:"Beachfront",ru:"Первая линия"},
+   name:"Kiara Beachfront",loc:{en:"Nusa Dua, Bali",ru:"Нуса Дуа, Бали"},
+   desc:{en:"Apartments directly on the beach next to 5-star hotels and a golf club. Furniture package included.",ru:"Апартаменты прямо на пляже рядом с отелями 5* и гольф-клубом. Пакет мебели включён."},
+   specs:[["size","83–223 m²"],["beds",{en:"1–3 bedrooms",ru:"1–3 спальни"}],["yield",{en:"12%*",ru:"12%*"}],["plan",{en:"30% + 16 months",ru:"30% + 16 мес."}]],
+   priceTxt:"$278,700"},
+  {id:"gv2",region:"bali",img:"gv2",price:300000,ready:false,tag:{en:"Off-plan",ru:"Строится"},
+   name:"Garden Villa II",loc:{en:"Ubud, Bali",ru:"Убуд, Бали"},
+   desc:{en:"3-bedroom villas with infinity pools and jungle and river views in a gated complex near Ubud.",ru:"Виллы с 3 спальнями, бассейном инфинити и видом на джунгли и реку в охраняемом комплексе у Убуда."},
+   specs:[["beds",{en:"3 bedrooms",ru:"3 спальни"}],["land",{en:"Land 486 m²",ru:"Участок 486 м²"}],["yield",{en:"≈17%*",ru:"≈17%*"}],["lease",{en:"29 yrs + ext.",ru:"29 лет + продление"}]],
+   priceTxt:"$300,000"},
+  {id:"lake",region:"phuket",img:"lake",price:350141,ready:false,tag:{en:"Gardens of Eden",ru:"Gardens of Eden"},
+   name:"Lake Residences",loc:{en:"Bang Tao, Phuket · 500 m to beach",ru:"Банг Тао, Пхукет · 500 м до пляжа"},
+   desc:{en:"Apartments around a long lake pool, the most affordable phase of the Gardens of Eden resort.",ru:"Апартаменты у длинного бассейна-озера — самая доступная фаза курорта Gardens of Eden."},
+   specs:[["size","52–119 m²"],["beds",{en:"1–2 bedrooms",ru:"1–2 спальни"}],["yield",{en:"7.4–10%*",ru:"7,4–10%*"}],["thb","THB 11.9M"]],
+   priceTxt:"≈ $350,000"},
+  {id:"park",region:"phuket",img:"park",price:357600,ready:false,tag:{en:"Gardens of Eden",ru:"Gardens of Eden"},
+   name:"Park Residences",loc:{en:"Bang Tao, Phuket · 300 m to beach",ru:"Банг Тао, Пхукет · 300 м до пляжа"},
+   desc:{en:"Residences among parks and walking paths, balancing lifestyle and stable rental income.",ru:"Резиденции среди парков и прогулочных дорожек — баланс жизни и стабильного дохода от аренды."},
+   specs:[["size","49–100 m²"],["beds",{en:"1–2 bedrooms",ru:"1–2 спальни"}],["yield",{en:"7.5–11%*",ru:"7,5–11%*"}],["thb","THB 12.2M"]],
+   priceTxt:"≈ $357,600"},
+  {id:"gv1",region:"bali",img:"gv1",price:610000,ready:true,tag:{en:"Ready",ru:"Готово"},
+   name:"Garden Villa I",loc:{en:"Pererenan, Bali",ru:"Перерэнан, Бали"},
+   desc:{en:"Fully furnished 3-bedroom villa with pool and rooftop lounge, 100 m from the ocean in a gated complex.",ru:"Меблированная вилла с 3 спальнями, бассейном и лаунжем на крыше, 100 м от океана в охраняемом комплексе."},
+   specs:[["size",{en:"205 m² + roof",ru:"205 м² + крыша"}],["beds",{en:"3 bedrooms",ru:"3 спальни"}],["yield",{en:"≈15.5%*",ru:"≈15,5%*"}],["lease",{en:"28 years",ru:"28 лет"}]],
+   priceTxt:"$610,000"},
+  {id:"baliwood",region:"bali",img:"baliwood",price:700000,ready:true,tag:{en:"Ready",ru:"Готово"},
+   name:"Baliwood Residence",loc:{en:"Pererenan, Bali",ru:"Перерэнан, Бали"},
+   desc:{en:"2- and 4-bedroom villas with 7-meter ceilings, private pool and rooftop pool lounge, 3 minutes from the ocean.",ru:"Виллы с 2 и 4 спальнями, потолками 7 м, собственным бассейном и лаунжем на крыше, 3 минуты до океана."},
+   specs:[["beds",{en:"2 or 4 bedrooms",ru:"2 или 4 спальни"}],["size","235–310 m²"],["yield",{en:"11–15.5%*",ru:"11–15,5%*"}],["lease",{en:"28 years",ru:"28 лет"}]],
+   priceTxt:"$700,000"},
+  {id:"eden",region:"phuket",img:"eden",price:705882,ready:false,tag:{en:"50 m to beach",ru:"50 м до пляжа"},
+   name:"Eden Residences",loc:{en:"Bang Tao, Phuket · 50 m to beach",ru:"Банг Тао, Пхукет · 50 м до пляжа"},
+   desc:{en:"The beachfront phase of Gardens of Eden: sea-view residences, duplexes and penthouses with private rooftop pools.",ru:"Пляжная фаза Gardens of Eden: резиденции с видом на море, дуплексы и пентхаусы с бассейнами на крыше."},
+   specs:[["size","72–381 m²"],["beds",{en:"1–4 bedrooms",ru:"1–4 спальни"}],["yield",{en:"8–12%*",ru:"8–12%*"}],["thb","THB 24M"]],
+   priceTxt:"≈ $706,000"},
+  {id:"banyan",region:"phuket",img:"banyan",price:0,ready:false,tag:{en:"Branded",ru:"Брендовый"},
+   name:"Banyan Group Residences",loc:{en:"Laguna, Phuket",ru:"Лагуна, Пхукет"},
+   desc:{en:"A collection of branded condos, penthouses and lagoon-front pool villas in Laguna Phuket, many with golf club membership.",ru:"Брендовые кондоминиумы, пентхаусы и виллы у лагуны в Laguna Phuket, многие с членством в гольф-клубе."},
+   specs:[["size","29–358 m²"],["beds",{en:"Studio – 4 bed",ru:"Студия – 4 спальни"}],["extra",{en:"Golf membership*",ru:"Гольф-клуб*"}],["type",{en:"Condo & villa",ru:"Кондо и виллы"}]],
+   priceTxt:{en:"On request",ru:"По запросу"}}
+];
+
+const SPEC_LABEL = {
+  en:{size:"Area",type:"Type",ready:"Completion",beach:"To the ocean",yield:"Projected yield",plan:"Payment plan",units:"Size",price_idr:"Price",beds:"Bedrooms",land:"Plot",lease:"Lease",thb:"From",extra:"Extras"},
+  ru:{size:"Площадь",type:"Тип",ready:"Сдача",beach:"До океана",yield:"Прогноз дохода",plan:"Рассрочка",units:"Размер",price_idr:"Цена",beds:"Спальни",land:"Участок",lease:"Аренда земли",thb:"От",extra:"Бонус"}
+};
+
+window.RENDER = function(lang){
+  function L(v){return (v&&typeof v==="object")?(v[lang]||v.en):v}
+  var f=window.FILTER||"all";
+  var list=PROJECTS.filter(function(p){
+    if(f==="bali"||f==="phuket")return p.region===f;
+    if(f==="u300")return p.price>0&&p.price<=300000;
+    if(f==="ready")return p.ready;
+    return true;
+  });
+  document.getElementById("cards").innerHTML=list.map(function(p){
+    return '<article class="card">'+
+      '<div class="card-img" style="background-image:url(img/'+p.img+'.webp)"><span class="tag">'+L(p.tag)+'</span></div>'+
+      '<div class="card-body">'+
+        '<div class="card-loc">'+L(p.loc)+'</div>'+
+        '<h3>'+p.name+'</h3>'+
+        '<p class="desc">'+L(p.desc)+'</p>'+
+        '<div class="specs">'+p.specs.map(function(s){return '<div><small>'+SPEC_LABEL[lang][s[0]]+'</small>'+L(s[1])+'</div>'}).join("")+'</div>'+
+        '<div class="card-foot"><div class="price"><small>'+t("from")+'</small><b>'+L(p.priceTxt)+'</b></div>'+
+        '<a href="#contact" class="btn btn-line" data-interest="'+p.id+'" data-label="'+p.name+'">'+t("details")+'</a></div>'+
+      '</div></article>';
+  }).join("")||'<p style="color:var(--muted)">'+t("none")+'</p>';
+};
+
+const T = {
+  en:{
+    title:"Resort Real Estate in Bali & Phuket | Isla Estates",
+    n_projects:"Projects",n_dest:"Destinations",n_income:"Rental income",nav_cta:"Get a selection",
+    hero_eyebrow:"Resort real estate · Bali & Phuket",
+    hero_title:"Own a home where others <em>go on holiday</em>",
+    hero_lead:"Villas, apartments and hotel units in Bali and Phuket, managed for you and rented out while you're away. We select the project, check the paperwork and stay with you after the keys.",
+    hero_cta1:"See projects",hero_cta2:"Ask on WhatsApp",
+    hf_1:"entry price, Bali studios",hf_2:"projects from vetted developers",hf_3:"developer-projected yield",
+    pr_eyebrow:"Current projects",pr_title:"Selected projects in Bali and Phuket",
+    pr_lead:"From compact studios to beachfront penthouses. Prices are starting prices from the developers and may change as units sell.",
+    f_all:"All",f_bali:"Bali",f_phuket:"Phuket",f_u300:"Under $300K",f_ready:"Ready now",
+    from:"from",details:"Request details",none:"No projects match this filter.",
+    d_eyebrow:"Destinations",d_title:"Two islands, two strategies",
+    d_lead:"Bali gives higher projected yields and lower entry prices. Phuket gives large branded resorts, beachfront locations and hotel-style management.",
+    d_bali:"Villas and apartments near the surf beaches of Canggu and Pererenan, the jungle around Ubud and the cliffs of Uluwatu. Year-round tourist demand and short-term rentals.",
+    d_phuket:"Resort communities around Bang Tao beach and the Laguna area: residences with pools, golf, wellness centers and professional rental pools.",
+    d_chip_beach:"50 m to the beach",
+    i_eyebrow:"Rental income",i_title:"Your property works while you don't",
+    i_lead:"Every project we offer has a professional management company. They find guests, clean, maintain and pay you your share.",
+    i1_t:"Rental pool or individual rental",i1_d:"In Phuket, choose a shared rental pool for stable income or individual rental for more flexibility. The owner gets 70% of revenue.",
+    i2_t:"Hotel-standard management in Bali",i2_d:"Listing, check-in, daily cleaning, pool and garden care, 24/7 security. Typical fee: 20% of revenue.",
+    i3_t:"Owner dashboard",i3_d:"See bookings, calendar, blocked dates and income online, and use the property yourself on your dates.",
+    hw_eyebrow:"How to buy",hw_title:"Remote purchase in four steps",
+    hw_lead:"You don't need to fly in. Everything can be done online with a notary and a power of attorney if needed.",
+    p1_t:"Consultation",p1_d:"We learn your budget and goals and send a shortlist with photos, layouts and income forecasts.",
+    p2_t:"Booking",p2_d:"A small booking fee (often 1%) takes the unit off the market while documents are checked.",
+    p3_t:"Due diligence & contract",p3_d:"A notary checks the land and permits. Then you sign and pay in full or by installments.",
+    p4_t:"Handover & rental",p4_d:"You receive the keys and the management company starts renting. We stay in touch for anything you need.",
+    f_eyebrow:"Free selection",f_title:"Get a personal shortlist",
+    f_lead:"Tell us your budget and goal. An advisor will send you the best matching units with prices and income forecasts, usually within one business day.",
+    l_name:"Full name *",l_phone:"Phone / WhatsApp *",l_email:"Email",l_interest:"Interested in",l_budget:"Budget (USD)",l_goal:"Goal",l_msg:"Anything else?",
+    o_any:"Any, advise me",o_bali:"Bali",o_phuket:"Phuket",b1:"Under 150K",g1:"Rental income",g2:"For my own use",g3:"Both",
+    consent:'I agree to be contacted and to the <a href="#privacy" style="text-decoration:underline">privacy policy</a>.',
+    submit:"Get my shortlist",
+    faq_title:"Common questions",
+    q1:"Can foreigners buy property in Bali?",a1:"Yes, usually through a long-term leasehold. The projects we offer come with leases of about 28–35 years, many with options to extend. The notary checks the land title before you pay the main amount.",
+    q2:"Can foreigners buy property in Phuket?",a2:"Yes. Foreigners can own condominium units in their own name within the building's foreign-ownership quota. Villas are usually bought through a leasehold or a company structure. We explain the right option for each project.",
+    q3:"Are the rental yields guaranteed?",a3:"No. The yields shown are developer projections based on occupancy and nightly rates. Real income depends on the market and how the property is managed. We'll show you the pessimistic scenario too.",
+    q4:"Are there payment plans?",a4:"Many off-plan projects allow installments during construction, for example 30% upfront and the rest over 16–24 months. Ready properties are usually paid in full after due diligence.",
+    q5:"Do I have to travel to buy?",a5:"No. Viewings can be done by video and contracts signed remotely. If you want to see the property in person, we can organize the visit.",
+    q6:"What does your service cost?",a6:"The consultation and selection are free for buyers. You pay the property price plus the developer's standard costs, such as notary fees and taxes where they apply.",
+    privacy:"Privacy policy",c_wa:"WhatsApp chat",privacy_txt:"We use the details you send only to contact you about your request. We do not sell them or share them with third parties, except partners needed to process your request and only with your consent. You can ask us to delete your data at any time via WhatsApp.",
+    disc:"Prices, availability and completion dates are provided by the developers and may change. *Yields are developer projections, not guaranteed returns. USD prices for Phuket are approximate, converted at 34 THB per USD. This page is for information only and is not financial or legal advice.",
+    ok:"Thank you! An advisor will contact you shortly.",err_req:"Please fill in your name and phone and accept the privacy policy.",err_send:"Something went wrong. Please message us on WhatsApp instead.",
+    wa_hi:"Hello! I'm interested in property in Bali / Phuket."
+  },
+  ru:{
+    title:"Курортная недвижимость на Бали и Пхукете | Isla Estates",
+    n_projects:"Проекты",n_dest:"Направления",n_income:"Доход от аренды",nav_cta:"Получить подборку",
+    hero_eyebrow:"Курортная недвижимость · Бали и Пхукет",
+    hero_title:"Дом там, где другие <em>проводят отпуск</em>",
+    hero_lead:"Виллы, апартаменты и гостиничные номера на Бали и Пхукете, которые управляются и сдаются в аренду, пока вас нет. Мы подбираем проект, проверяем документы и остаёмся рядом после получения ключей.",
+    hero_cta1:"Смотреть проекты",hero_cta2:"Спросить в WhatsApp",
+    hf_1:"вход, студии на Бали",hf_2:"проектов от проверенных застройщиков",hf_3:"прогноз доходности застройщика",
+    pr_eyebrow:"Актуальные проекты",pr_title:"Подборка проектов на Бали и Пхукете",
+    pr_lead:"От компактных студий до пентхаусов у пляжа. Указаны стартовые цены застройщиков, они могут меняться по мере продаж.",
+    f_all:"Все",f_bali:"Бали",f_phuket:"Пхукет",f_u300:"До $300K",f_ready:"Готовые",
+    from:"от",details:"Узнать детали",none:"Нет проектов по этому фильтру.",
+    d_eyebrow:"Направления",d_title:"Два острова, две стратегии",
+    d_lead:"Бали даёт более высокую прогнозную доходность и низкий порог входа. Пхукет — крупные брендовые курорты, первую линию и отельное управление.",
+    d_bali:"Виллы и апартаменты у сёрф-пляжей Чангу и Перерэнана, в джунглях Убуда и на скалах Улувату. Круглогодичный турпоток и посуточная аренда.",
+    d_phuket:"Курортные комплексы у пляжа Банг Тао и в районе Laguna: резиденции с бассейнами, гольфом, велнес-центрами и профессиональным Rental Pool.",
+    d_chip_beach:"50 м до пляжа",
+    i_eyebrow:"Доход от аренды",i_title:"Недвижимость работает, пока вы отдыхаете",
+    i_lead:"У каждого нашего проекта есть профессиональная управляющая компания. Она находит гостей, убирает, обслуживает объект и выплачивает вам вашу долю.",
+    i1_t:"Rental Pool или индивидуальная аренда",i1_d:"На Пхукете можно выбрать общий пул для стабильного дохода или индивидуальную аренду для гибкости. Владелец получает 70% выручки.",
+    i2_t:"Управление по отельным стандартам на Бали",i2_d:"Размещение на площадках, заселение, ежедневная уборка, уход за бассейном и садом, охрана 24/7. Обычная комиссия — 20% выручки.",
+    i3_t:"Личный кабинет владельца",i3_d:"Бронирования, календарь, заблокированные даты и доход онлайн, плюс собственное проживание в выбранные даты.",
+    hw_eyebrow:"Как купить",hw_title:"Удалённая покупка в четыре шага",
+    hw_lead:"Прилетать не обязательно. Всё можно оформить онлайн через нотариуса, при необходимости по доверенности.",
+    p1_t:"Консультация",p1_d:"Обсуждаем бюджет и цели и присылаем подборку с фото, планировками и прогнозом дохода.",
+    p2_t:"Бронирование",p2_d:"Небольшой взнос (часто 1%) снимает объект с продажи на время проверки документов.",
+    p3_t:"Проверка и договор",p3_d:"Нотариус проверяет землю и разрешения. Затем вы подписываете договор и оплачиваете полностью или в рассрочку.",
+    p4_t:"Передача и аренда",p4_d:"Вы получаете ключи, управляющая компания начинает сдавать объект. Мы остаёмся на связи по любым вопросам.",
+    f_eyebrow:"Бесплатный подбор",f_title:"Получите персональную подборку",
+    f_lead:"Укажите бюджет и цель. Консультант пришлёт лучшие варианты с ценами и прогнозом дохода, обычно в течение одного рабочего дня.",
+    l_name:"Имя и фамилия *",l_phone:"Телефон / WhatsApp *",l_email:"Email",l_interest:"Интересует",l_budget:"Бюджет (USD)",l_goal:"Цель",l_msg:"Комментарий",
+    o_any:"Любое, нужен совет",o_bali:"Бали",o_phuket:"Пхукет",b1:"До 150K",g1:"Доход от аренды",g2:"Для себя",g3:"И то, и другое",
+    consent:'Я согласен(на) на связь и с <a href="#privacy" style="text-decoration:underline">политикой конфиденциальности</a>.',
+    submit:"Получить подборку",
+    faq_title:"Частые вопросы",
+    q1:"Может ли иностранец купить недвижимость на Бали?",a1:"Да, обычно через долгосрочную аренду земли (leasehold). У наших проектов срок около 28–35 лет, у многих с возможностью продления. Нотариус проверяет участок до основной оплаты.",
+    q2:"Может ли иностранец купить недвижимость на Пхукете?",a2:"Да. Иностранцы могут владеть квартирами в кондоминиумах на своё имя в рамках квоты для иностранцев. Виллы обычно покупают через leasehold или компанию. Мы объясним подходящий вариант для каждого проекта.",
+    q3:"Доходность гарантирована?",a3:"Нет. Указанная доходность — прогноз застройщика на основе загрузки и цены за ночь. Реальный доход зависит от рынка и управления. Мы покажем и пессимистичный сценарий.",
+    q4:"Есть ли рассрочка?",a4:"Многие строящиеся проекты дают рассрочку на период строительства, например 30% сразу и остаток за 16–24 месяца. Готовые объекты обычно оплачиваются полностью после проверки.",
+    q5:"Нужно ли приезжать для покупки?",a5:"Нет. Просмотр можно провести по видео, договор подписать дистанционно. Если хотите увидеть объект лично, организуем поездку.",
+    q6:"Сколько стоят ваши услуги?",a6:"Консультация и подбор для покупателя бесплатны. Вы платите стоимость объекта и стандартные расходы застройщика, например нотариус и налоги, если они применимы.",
+    privacy:"Политика конфиденциальности",c_wa:"Чат в WhatsApp",privacy_txt:"Мы используем ваши данные только для связи по вашему запросу. Мы не продаём их и не передаём третьим лицам, кроме партнёров, необходимых для обработки запроса, и только с вашего согласия. Вы можете попросить удалить ваши данные в любой момент через WhatsApp.",
+    disc:"Цены, наличие и сроки сдачи предоставлены застройщиками и могут меняться. *Доходность — прогноз застройщика, а не гарантированный доход. Цены в USD для Пхукета приблизительные, по курсу 34 THB за 1 USD. Информация на странице не является финансовой или юридической консультацией.",
+    ok:"Спасибо! Консультант скоро свяжется с вами.",err_req:"Укажите имя и телефон и примите политику конфиденциальности.",err_send:"Что-то пошло не так. Пожалуйста, напишите нам в WhatsApp.",
+    wa_hi:"Здравствуйте! Интересует недвижимость на Бали / Пхукете."
+  }
+};
+
+</script>
+<script>
+(function(){
+  function store(k,v){try{if(v!==undefined)localStorage.setItem(k,v);return localStorage.getItem(k)}catch(e){return null}}
+  var params=new URLSearchParams(location.search);
+  var lang=params.get("lang")||store("ar_lang")||((navigator.language||"").toLowerCase().indexOf("ru")===0?"ru":"en");
+  if(!T[lang])lang="en";
+  window.LANG=function(){return lang};
+  window.t=function(k){return (T[lang]&&T[lang][k]!==undefined)?T[lang][k]:(T.en[k]||k)};
+
+  function apply(l){
+    lang=l;store("ar_lang",l);
+    var d=T[l];
+    document.documentElement.lang=l;
+    if(d.title)document.title=d.title;
+    document.querySelectorAll("[data-i18n]").forEach(function(el){var k=el.getAttribute("data-i18n");if(d[k]!==undefined)el.textContent=d[k]});
+    document.querySelectorAll("[data-i18n-html]").forEach(function(el){var k=el.getAttribute("data-i18n-html");if(d[k]!==undefined)el.innerHTML=d[k]});
+    document.querySelectorAll("[data-i18n-ph]").forEach(function(el){var k=el.getAttribute("data-i18n-ph");if(d[k]!==undefined)el.placeholder=d[k]});
+    document.querySelectorAll(".lang button").forEach(function(b){b.classList.toggle("on",b.dataset.lang===l)});
+    var wa="https://wa.me/"+CONFIG.whatsapp+"?text="+encodeURIComponent(d.wa_hi);
+    document.querySelectorAll(".js-wa").forEach(function(a){a.href=wa;a.target="_blank";a.rel="noopener"});
+    if(window.RENDER)window.RENDER(l);
+  }
+  document.querySelectorAll(".lang button").forEach(function(b){b.addEventListener("click",function(){apply(b.dataset.lang)})});
+
+  // filters (re-render through RENDER, which reads window.FILTER)
+  window.FILTER="all";
+  document.querySelectorAll(".filters button").forEach(function(b){
+    b.addEventListener("click",function(){
+      window.FILTER=b.dataset.f;
+      document.querySelectorAll(".filters button").forEach(function(x){x.classList.toggle("on",x===b)});
+      if(window.RENDER)window.RENDER(lang);
+    });
+  });
+
+  // "Request details" buttons on cards: prefill the form and scroll to it
+  document.addEventListener("click",function(e){
+    var b=e.target.closest("[data-interest]");if(!b)return;
+    e.preventDefault();
+    var f=document.getElementById("leadForm");
+    var sel=f.querySelector("[name=interest]");
+    if(sel){var v=b.getAttribute("data-interest");
+      if(![].some.call(sel.options,function(o){return o.value===v})){var o=document.createElement("option");o.value=v;o.textContent=b.getAttribute("data-label")||v;sel.appendChild(o)}
+      sel.value=v;}
+    document.getElementById("contact").scrollIntoView({behavior:"smooth"});
+  });
+
+  // privacy links open the policy in the footer
+  document.addEventListener("click",function(e){var a=e.target.closest('a[href="#privacy"]');if(!a)return;e.preventDefault();var d=document.getElementById("privacy");d.open=true;d.scrollIntoView({behavior:"smooth"})});
+  document.querySelectorAll('a.logo[href="#"]').forEach(function(a){a.addEventListener("click",function(e){e.preventDefault();window.scrollTo({top:0,behavior:"smooth"})})});
+  apply(lang);
+  var yr=document.getElementById("yr");if(yr)yr.textContent=new Date().getFullYear();
+
+  // keep UTM tags from the partner's link for the whole visit
+  var utm={};
+  ["utm_source","utm_medium","utm_campaign","utm_content","ref"].forEach(function(k){
+    if(params.get(k))store("ar_"+k,params.get(k));
+    var v=params.get(k)||store("ar_"+k);if(v)utm[k]=v;
+  });
+
+  // lead form
+  var form=document.getElementById("leadForm"),msg=document.getElementById("formMsg");
+  function show(type,text){msg.className="form-msg "+type;msg.textContent=text}
+  form.addEventListener("submit",function(e){
+    e.preventDefault();
+    var d=T[lang],data={};
+    new FormData(form).forEach(function(v,k){data[k]=String(v).trim()});
+    if(!data.name||!data.phone||!form.consent.checked){show("err",d.err_req);return}
+    delete data.consent;
+    var payload=Object.assign({},data,utm,{page:CONFIG.page,lang:lang,url:location.href,submitted_at:new Date().toISOString()});
+    var btn=form.querySelector("button[type=submit]");btn.disabled=true;
+    function done(){show("ok",d.ok);form.reset();btn.disabled=false;
+      if(window.gtag)gtag("event","generate_lead",{page:CONFIG.page});if(window.fbq)fbq("track","Lead");}
+    if(!CONFIG.endpoint){
+      var lines=[d.wa_hi,""];
+      Object.keys(data).forEach(function(k){if(data[k])lines.push(k+": "+data[k])});
+      if(utm.utm_source)lines.push("source: "+utm.utm_source);
+      window.open("https://wa.me/"+CONFIG.whatsapp+"?text="+encodeURIComponent(lines.join("\n")),"_blank");
+      done();return;
+    }
+    fetch(CONFIG.endpoint,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)})
+      .then(function(r){if(!r.ok)throw new Error(r.status);done()})
+      .catch(function(){show("err",d.err_send);btn.disabled=false});
+  });
+})();
+</script>
+</body>
+</html>

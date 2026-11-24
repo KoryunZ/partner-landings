@@ -1,0 +1,33 @@
+<!-- Partner block: paste into an "Embed" / "Custom HTML" block on the partner's site.
+     1) Replace the two href URLs with where you host the landings.
+     2) Replace "tourpartner" with the partner's name (it shows up with every lead). -->
+<div class="lp-partner">
+  <h3 class="lp-title">More than a trip</h3>
+  <div class="lp-grid">
+    <a class="lp-card lp-re" href="https://YOUR-DOMAIN/real-estate/?utm_source=tourpartner&utm_medium=referral&utm_campaign=real_estate" target="_blank" rel="noopener">
+      <span class="lp-tag">Bali & Phuket</span>
+      <strong>Own a home where others go on holiday</strong>
+      <span>Villas and apartments from $97,000 with rental management.</span>
+      <span class="lp-go">See projects →</span>
+    </a>
+    <a class="lp-card lp-rs" href="https://YOUR-DOMAIN/residency/?utm_source=tourpartner&utm_medium=referral&utm_campaign=residency" target="_blank" rel="noopener">
+      <span class="lp-tag">Second passport & residency</span>
+      <strong>A second passport for your family</strong>
+      <span>20 programs from $90,000: Caribbean, Argentina, Europe, UAE.</span>
+      <span class="lp-go">Compare programs →</span>
+    </a>
+  </div>
+</div>
+<style>
+.lp-partner{max-width:1000px;margin:40px auto;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.lp-title{font-size:28px;margin:0 0 18px;color:inherit}
+.lp-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.lp-card{display:flex;flex-direction:column;gap:8px;padding:26px;border-radius:16px;text-decoration:none;transition:.2s}
+.lp-card:hover{transform:translateY(-3px)}
+.lp-re{background:#0C3A3A;color:#B5D0CB}.lp-re .lp-tag,.lp-re .lp-go{color:#F2A65A}
+.lp-rs{background:#2A0E18;color:#D9C2C8}.lp-rs .lp-tag,.lp-rs .lp-go{color:#E3B04B}
+.lp-card strong{color:#fff;font-size:20px}
+.lp-tag{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+.lp-go{font-weight:700;margin-top:6px}
+@media(max-width:640px){.lp-grid{grid-template-columns:1fr}}
+</style>
